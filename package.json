@@ -61,6 +61,5 @@
 		"vite": "^4.4.2"
 	},
 	"types": "./dist/ComboBox.svelte.d.ts",
-	"type": "module",
-	"svelte": "./dist/index.js"
+	"type": "module"
 }
