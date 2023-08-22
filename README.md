@@ -36,6 +36,18 @@
     />
 </div>
 ```
+# Troubleshooting
+
+If you are using typescript and you get the following error ```Cannot find module 'svelte-combobox/ComboBox.svelte' or its corresponding type declarations.``` after importing the component, then you need to modify your tsconfig.json as follows :
+```
+{
+
+    compilerOptions : {
+        //other options
+        "moduleResolution" : "Bundler"
+    }
+}
+```
 
 # Learn More
 visit [Documentation Website](https://sourabhpatel1.github.io/combobox-docs/) to learn more.
