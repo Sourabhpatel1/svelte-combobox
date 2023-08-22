@@ -38,4 +38,7 @@
 ```
 
 # Learn More
-visit [Documentation Website](https://sourabhpatel1.github.io/combobox-docs/) to learn more
+visit [Documentation Website](https://sourabhpatel1.github.io/combobox-docs/) to learn more.
+
+# On npm
+Check it out on [npm](https://www.npmjs.com/package/svelte-combobox?activeTab=code).
