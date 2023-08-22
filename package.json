@@ -1,0 +1,66 @@
+{
+	"name": "svelte-combobox",
+	"license": "MIT",
+	"version": "1.0.12",
+	"repository": "https://github.com/Sourabhpatel1/svelte-combobox.git",
+	"homepage": "https://sourabhpatel1.github.io/combobox-docs/",
+	"description": "A simple combobox component for yur svelte and sveltekit projects",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build && npm run package",
+		"preview": "vite preview",
+		"package": "svelte-kit sync && svelte-package && publint",
+		"prepublishOnly": "npm run package",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"author": "Sourabh Patel",
+	"keywords": [
+		"svelte combobox",
+		"sveltekit cmbobox",
+		"combobox",
+		"dropdown",
+		"searchable select",
+		"svelte",
+		"sveltekit"
+	],
+	"exports": {
+		"./ComboBox.svelte": {
+			"types": "./dist/ComboBox.svelte.d.ts",
+			"svelte": "./dist/ComboBox.svelte"
+		},
+		".": {
+			"types": "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"@sveltejs/package": "^2.0.0",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.10.1",
+		"publint": "^0.1.9",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.3",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^4.4.2"
+	},
+	"types": "./dist/index.d.ts",
+	"type": "module",
+	"svelte": "./dist/index.js"
+}
