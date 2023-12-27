@@ -1,7 +1,7 @@
 {
 	"name": "svelte-combobox",
 	"license": "MIT",
-	"version": "1.0.14",
+	"version": "1.0.15",
 	"repository": "https://github.com/Sourabhpatel1/svelte-combobox.git",
 	"homepage": "https://sourabhpatel1.github.io/combobox-docs/",
 	"description": "A simple combobox component for yur svelte and sveltekit projects",

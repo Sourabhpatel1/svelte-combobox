@@ -209,6 +209,7 @@
             type="text" 
             placeholder="{placeholder}" 
             class="{inputClass}"
+            autocomplete="off"
             role="combobox"
             name="combobox-input"
             aria-controls=".options"
